@@ -1,5 +1,5 @@
 include:
-  - project: houxuejie/ci_templates
+  - project: hushuibin/ci_templates
     ref: master
     file:
       - yarn.yaml
