@@ -16,10 +16,5 @@ build:
   tags:
     - zt
     - docker
-
-deploy:
-  stage: deploy
-  only:
-    - tags
-  script:
+  after_script:
     - npm publish
