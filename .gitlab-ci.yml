@@ -19,8 +19,8 @@ build:
   stage: build
   only: ['tags']
   script:
-    - yarn install
-    - yarn build
+    - npm install
+    - npm build
 
 deploy:
   stage: deploy
